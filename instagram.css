@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    color: black;
+}
+.side_bar{
+    width:200px;
+    height: 100vh;
+    margin: 0;
+}
+.Instagram{
+    display: flex;
+    gap: 50px;
+}
+.header{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: black;
+    padding: 20px;
+    gap: 50px;
+}
+.dot{
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    border-left:1px solid black;
+    height: 100vh;
+    color: #DBDBDB;
+   
+}
+.img1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid yellowgreen;
+}
+.middle_content
+{
+    display: flex;
+    justify-content: start;
+    
+    gap: 50px;
+    margin-left: 100px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.img2{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    width: 300px;
+    height: 300px;
+}
+.ite{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items:start ;
+    padding: 20px;
+    
+}
+.account{
+    margin-top: 30px;
+}
+
